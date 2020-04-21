@@ -284,7 +284,7 @@ if __name__ == "__main__":
     user_height = float(sys.argv[2])
     front_image_name = sys.argv[3]
     side_image_name = sys.argv[4]
-    option = sys.argv[5]
+    option = int(sys.argv[5])
     
     if option == 0:
         front_image_keypoint_selector.main(user_name,user_height,front_image_name)

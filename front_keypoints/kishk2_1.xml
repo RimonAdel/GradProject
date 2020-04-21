@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<front_image_name>"images/kishk2.1.jpg"</front_image_name>
+	<front_image_scale_percent>100</front_image_scale_percent>
+	<front_image_upper_ratio>4.262569832402234</front_image_upper_ratio>
+	<front_image_lower_ratio>4.262569832402234</front_image_lower_ratio>
+	<front_image_ratio>4.262569832402234</front_image_ratio>
+	<right_sholder_outer_point>(299,197)</right_sholder_outer_point>
+	<right_sholder_inner_point>(353,172)</right_sholder_inner_point>
+	<left_sholder_inner_point>(425,170)</left_sholder_inner_point>
+	<left_sholder_outer_point>(479,183)</left_sholder_outer_point>
+	<right_elbow_outer_point>(262,332)</right_elbow_outer_point>
+	<right_elbow_inner_point>(301,345)</right_elbow_inner_point>
+	<left_elbow_inner_point>(494,343)</left_elbow_inner_point>
+	<left_elbow_outer_point>(535,334)</left_elbow_outer_point>
+	<right_chest_arm_meeting_point>(313,241)</right_chest_arm_meeting_point>
+	<left_chest_arm_meeting_point>(475,241)</left_chest_arm_meeting_point>
+	<right_chest_point>(318,268)</right_chest_point>
+	<left_chest_point>(475,264)</left_chest_point>
+	<right_waist_point>(321,330)</right_waist_point>
+	<left_waist_point>(476,330)</left_waist_point>
+	<right_hip_point>(311,451)</right_hip_point>
+	<left_hip_point>(484,457)</left_hip_point>
+	<stone_of_trousers_point>(395,512)</stone_of_trousers_point>
+	<right_Knee_outer_point>(320,641)</right_Knee_outer_point>
+	<right_Knee_inner_point>(370,647)</right_Knee_inner_point>
+	<left_Knee_inner_point>(420,650)</left_Knee_inner_point>
+	<left_Knee_outer_point>(474,652)</left_Knee_outer_point>
+	<right_ankle_outer_point>(329,797)</right_ankle_outer_point>
+	<right_ankle_inner_point>(364,800)</right_ankle_inner_point>
+	<left_ankle_inner_point>(435,804)</left_ankle_inner_point>
+	<left_ankle_outer_point>(464,803)</left_ankle_outer_point>
+	<head_point>(394,37)</head_point>
+	<foot_color>(394,800)</foot_color>
+	<front_image_hip_hight>451</front_image_hip_hight>
+	<front_image_right_hip_pixel>(311,451)</front_image_right_hip_pixel>
+	<front_image_left_hip_pixel>(484,457)</front_image_left_hip_pixel>
+</person>

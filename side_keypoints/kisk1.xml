@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<side_image_name>images/kisk1.2.jpg</side_image_name>
+	<side_image_scale_percent>99.375</side_image_scale_percent>
+	<side_image_upper_ratio>4.737398144178995</side_image_upper_ratio>
+	<side_image_ratio>4.737398144178995</side_image_ratio>
+	<chest_front_point>(438, 225)</chest_front_point>
+	<chest_back_point>(324, 221)</chest_back_point>
+	<waist_front_point>(511, 278)</waist_front_point>
+	<waist_back_point>(300, 270)</waist_back_point>
+	<hip_front_point>(470, 324)</hip_front_point>
+	<hip_back_point>(308, 318)</hip_back_point>
+	<trousers_front_point>(458, 386)</trousers_front_point>
+	<trousers_back_point>(321, 394)</trousers_back_point>
+	<head_point>(397, 32)</head_point>
+	<foot_point>(373, 837)</foot_point>
+	<side_image_HIP_HIGHT>324</side_image_HIP_HIGHT>
+</person>

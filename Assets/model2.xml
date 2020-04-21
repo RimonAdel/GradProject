@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<side_image_name>images/model2.jpg</side_image_name>
+	<side_image_scale_percent>100</side_image_scale_percent>
+	<side_image_upper_ratio>5.297388639160553</side_image_upper_ratio>
+	<side_image_ratio>5.297388639160553</side_image_ratio>
+	<chest_front_point>(174, 262)</chest_front_point>
+	<chest_back_point>(20, 262)</chest_back_point>
+	<waist_front_point>(166, 361)</waist_front_point>
+	<waist_back_point>(51, 360)</waist_back_point>
+	<hip_front_point>(162, 441)</hip_front_point>
+	<hip_back_point>(42, 440)</hip_back_point>
+	<trousers_front_point>(159, 453)</trousers_front_point>
+	<trousers_back_point>(42, 451)</trousers_back_point>
+	<head_point>(90, 2)</head_point>
+	<foot_point>(69, 950)</foot_point>
+	<side_image_HIP_HIGHT>441</side_image_HIP_HIGHT>
+</person>

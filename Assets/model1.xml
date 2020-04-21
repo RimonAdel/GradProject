@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<front_image_name>images/model1.jpg</front_image_name>
+	<front_image_scale_percent>100</front_image_scale_percent>
+	<front_image_upper_ratio>5.262581693518759</front_image_upper_ratio>
+	<front_image_lower_ratio>5.262581693518759</front_image_lower_ratio>
+	<front_image_ratio>5.262581693518759</front_image_ratio>
+	<right_sholder_outer_point>(32, 196)</right_sholder_outer_point>
+	<right_sholder_inner_point>(115, 158)</right_sholder_inner_point>
+	<left_sholder_inner_point>(191, 158)</left_sholder_inner_point>
+	<left_sholder_outer_point>(274, 195)</left_sholder_outer_point>
+	<right_elbow_outer_point>(6, 363)</right_elbow_outer_point>
+	<right_elbow_inner_point>(46, 371)</right_elbow_inner_point>
+	<left_elbow_inner_point>(259, 365)</left_elbow_inner_point>
+	<left_elbow_outer_point>(301, 362)</left_elbow_outer_point>
+	<right_chest_arm_meeting_point>(67, 282)</right_chest_arm_meeting_point>
+	<left_chest_arm_meeting_point>(240, 282)</left_chest_arm_meeting_point>
+	<right_chest_point>(70, 313)</right_chest_point>
+	<left_chest_point>(235, 310)</left_chest_point>
+	<right_waist_point>(76, 351)</right_waist_point>
+	<left_waist_point>(230, 350)</left_waist_point>
+	<right_hip_point>(68, 427)</right_hip_point>
+	<left_hip_point>(235, 427)</left_hip_point>
+	<stone_of_trousers_point>(152, 533)</stone_of_trousers_point>
+	<right_Knee_outer_point>(75, 701)</right_Knee_outer_point>
+	<right_Knee_inner_point>(130, 703)</right_Knee_inner_point>
+	<left_Knee_inner_point>(176, 703)</left_Knee_inner_point>
+	<left_Knee_outer_point>(232, 703)</left_Knee_outer_point>ba
+	<right_ankle_outer_point>(97, 914)</right_ankle_outer_point>
+	<right_ankle_inner_point>(136, 914)</right_ankle_inner_point>
+	<left_ankle_inner_point>(168, 913)</left_ankle_inner_point>
+	<left_ankle_outer_point>(208, 912)</left_ankle_outer_point>
+	<head_point>(153, 1)</head_point>
+	<foot_color>(151, 943)</foot_color>
+	<front_image_hip_hight>427</front_image_hip_hight>
+	<front_image_right_hip_pixel>(68, 427)</front_image_right_hip_pixel>
+	<front_image_left_hip_pixel>(235, 427)</front_image_left_hip_pixel>
+</person>

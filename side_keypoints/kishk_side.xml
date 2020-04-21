@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<side_image_name>images/kishk1.2.jpg</side_image_name>
+	<side_image_scale_percent>99.375</side_image_scale_percent>
+	<side_image_upper_ratio>4.564587693957661</side_image_upper_ratio>
+	<side_image_ratio>4.564587693957661</side_image_ratio>
+	<chest_front_point>(426, 215)</chest_front_point>
+	<chest_back_point>(309, 219)</chest_back_point>
+	<waist_front_point>(451, 301)</waist_front_point>
+	<waist_back_point>(318, 307)</waist_back_point>
+	<hip_front_point>(462, 391)</hip_front_point>
+	<hip_back_point>(317, 388)</hip_back_point>
+	<trousers_front_point>(452, 431)</trousers_front_point>
+	<trousers_back_point>(317, 431)</trousers_back_point>
+	<head_point>(387, 24)</head_point>
+	<foot_point>(377, 841)</foot_point>
+	<side_image_HIP_HIGHT>391</side_image_HIP_HIGHT>
+</person>

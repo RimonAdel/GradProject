@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<chest_nipple>60.462698103940056</chest_nipple>
+	<waist>64.24979039144122</waist>
+	<hip>71.06709465450056</hip>
+	<natural_hip>0.0</natural_hip>
+	<sholder>42.160292659629164</sholder>
+	<front_chest>33.88039349800185</front_chest>
+	<front_waist>34.72353176575381</front_waist>
+	<front_hip>38.74332977872317</front_hip>
+	<under_arm>37.02250480756164</under_arm>
+	<hip_to_knee_left>49.84289996184244</hip_to_knee_left>
+	<hip_to_knee_right>49.59383610811685</hip_to_knee_right>
+	<waist_knee_left>68.99107626701728</waist_knee_left>
+	<waist_knee_right>66.62927600279522</waist_knee_right>
+	<waist_hip_left>19.30692293017632</waist_hip_left>
+	<waist_hip_right>17.285519882023532</waist_hip_right>
+	<left_knee_width>8.927026132103903</left_knee_width>
+	<right_knee_width>8.497466139185589</right_knee_width>
+	<knee_to_ankle_right>35.0335941071002</knee_to_ankle_right>
+	<knee_to_ankle_left>33.78523166178829</knee_to_ankle_left>
+	<T_stone_to_left_knee>28.563092631155627</T_stone_to_left_knee>
+	<T_stone_to_right_knee>27.45887934180301</T_stone_to_right_knee>
+	<side_chest>25.647082266631564</side_chest>
+	<side_waist>29.16698691826653</side_waist>
+	<side_hip>31.77308464339148</side_hip>
+	<natural_waist>29.5755080308141</natural_waist>
+</person>

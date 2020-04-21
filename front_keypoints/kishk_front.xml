@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<front_image_name>images/kishk1.1.jpg</front_image_name>
+	<front_image_scale_percent>99.47916666666666</front_image_scale_percent>
+	<front_image_upper_ratio>4.262628407016071</front_image_upper_ratio>
+	<front_image_lower_ratio>4.262628407016071</front_image_lower_ratio>
+	<front_image_ratio>4.262628407016071</front_image_ratio>
+	<right_sholder_outer_point>(300, 197)</right_sholder_outer_point>
+	<right_sholder_inner_point>(362, 157)</right_sholder_inner_point>
+	<left_sholder_inner_point>(413, 157)</left_sholder_inner_point>
+	<left_sholder_outer_point>(479, 181)</left_sholder_outer_point>
+	<right_elbow_outer_point>(272, 309)</right_elbow_outer_point>
+	<right_elbow_inner_point>(307, 334)</right_elbow_inner_point>
+	<left_elbow_inner_point>(497, 328)</left_elbow_inner_point>
+	<left_elbow_outer_point>(521, 310)</left_elbow_outer_point>
+	<right_chest_arm_meeting_point>(318, 234)</right_chest_arm_meeting_point>
+	<left_chest_arm_meeting_point>(475, 218)</left_chest_arm_meeting_point>
+	<right_chest_point>(327, 265)</right_chest_point>
+	<left_chest_point>(471, 254)</left_chest_point>
+	<right_waist_point>(324, 334)</right_waist_point>
+	<left_waist_point>(472, 332)</left_waist_point>
+	<right_hip_point>(314, 407)</right_hip_point>
+	<left_hip_point>(479, 414)</left_hip_point>
+	<stone_of_trousers_point>(397, 510)</stone_of_trousers_point>
+	<right_Knee_outer_point>(327, 618)</right_Knee_outer_point>
+	<right_Knee_inner_point>(363, 622)</right_Knee_inner_point>
+	<left_Knee_inner_point>(427, 628)</left_Knee_inner_point>
+	<left_Knee_outer_point>(465, 626)</left_Knee_outer_point>
+	<right_ankle_outer_point>(337, 767)</right_ankle_outer_point>
+	<right_ankle_inner_point>(357, 769)</right_ankle_inner_point>
+	<left_ankle_inner_point>(435, 775)</left_ankle_inner_point>
+	<left_ankle_outer_point>(463, 770)</left_ankle_outer_point>
+	<head_point>(388, 34)</head_point>
+	<foot_color>(392, 797)</foot_color>
+	<front_image_hip_hight>407</front_image_hip_hight>
+	<front_image_right_hip_pixel>(314, 407)</front_image_right_hip_pixel>
+	<front_image_left_hip_pixel>(479, 414)</front_image_left_hip_pixel>
+</person>

@@ -9,6 +9,9 @@ import XMLHandler
 import front_image_keypoint_selector
 import side_image_keypoint_selector
 
+import os.path
+my_path = os.path.abspath(os.path.dirname(__file__))
+
 SIDE_KEYPOINTS = {"chest_front":[0,0], "chest_back":[0,0], "waist_front":[0,0], "waist_back":[0,0],"hip_front":[0,0],"hip_back":[0,0],
  "trousers_front":[0,0], "trousers_back":[0,0]}
 
@@ -29,12 +32,6 @@ straight_measurements_average_dict = {"sholder":[], "front_chest":[], "front_wai
 true_measurments_dict = {"chest_nipple":[], "waist":[], "hip":[], "natural_hip":[]} 
 
 true_measurments_average_dict = {"chest_nipple":[], "waist":[], "hip":[], "natural_hip":[]} 
-
-front_image_hip_hight = 0 
-front_image_left_hip_pixel = 0
-front_image_right_hip_pixel = 0
-front_image_lower_ratio = 0
-front_image_upper_ratio = 0
 
 def rectangle_premiter(r1,r2):
 
@@ -87,7 +84,7 @@ def apply_filter_return_countoures(hsv_image, hsv_color_lower, hsv_color_upper, 
     return (res, filtered_image, contors, hierarchy)
 
 def eclidian_distance(point1 , point2):
-    global front_image_hip_hight, front_image_left_hip_pixel, front_image_right_hip_pixel, front_image_lower_ratio, front_image_upper_ratio
+    global front_image_hip_hight, front_image_left_hip_pixel, front_image_right_hip_pixel
     (x1, y1) = point1
     (x2, y2) = point2
     result = 0
@@ -276,7 +273,7 @@ def resize_image(img,scale):
     return img
 
 if __name__ == "__main__":
-    
+
     print(len(sys.argv))
     if len(sys.argv) != 6:
         print("script must be called like: python <scriptName> <sperson> <user's height> <front image path> <side image path> <option>")
@@ -302,15 +299,11 @@ if __name__ == "__main__":
     side_image_points_dict = XMLHandler.read_file("side_keypoints/"+user_name+"_side")
     side_image_points_dict = XMLHandler.refract_dict(side_image_points_dict)
    
-   
-    
 
-    front_image_hip_hight = front_image_points_dict["front_image_hip_hight"][0]
-    front_image_left_hip_pixel = front_image_points_dict["front_image_left_hip_pixel"]
-    front_image_right_hip_pixel = front_image_points_dict["front_image_right_hip_pixel"]
-    front_image_lower_ratio = front_image_points_dict["front_image_lower_ratio"][0]
-    front_image_upper_ratio = front_image_points_dict["front_image_upper_ratio"][0]
-        
+    print("front_image_points_dict = ",front_image_points_dict)
+    print("side_image_points_dict = ",side_image_points_dict)
+    
+    
     front_image = cv2.imread(front_image_name, cv2.IMREAD_COLOR)
     # scaling 
     print("front_image.shape[1]",front_image.shape[1])
@@ -346,55 +339,55 @@ if __name__ == "__main__":
     
    
     #front image measurments  ##################################################################################################################################
-    straight_measurements_dict["sholder"].append( eclidian_distance(FRONT_KEYPOINTS["left_sholder_outer"],FRONT_KEYPOINTS["right_sholder_outer"]) )
+    # straight_measurements_dict["sholder"].append( eclidian_distance(FRONT_KEYPOINTS["left_sholder_outer"],FRONT_KEYPOINTS["right_sholder_outer"]) )
     straight_measurements_dict["sholder"].append( eclidian_distance2(FRONT_KEYPOINTS["left_sholder_outer"],FRONT_KEYPOINTS["right_sholder_outer"],front_image_ratio) )
 
-    straight_measurements_dict["front_chest"].append( eclidian_distance(FRONT_KEYPOINTS["left_chest"],FRONT_KEYPOINTS["right_chest"]) )
+    # straight_measurements_dict["front_chest"].append( eclidian_distance(FRONT_KEYPOINTS["left_chest"],FRONT_KEYPOINTS["right_chest"]) )
     straight_measurements_dict["front_chest"].append( eclidian_distance2(FRONT_KEYPOINTS["left_chest"],FRONT_KEYPOINTS["right_chest"],front_image_ratio) )
 
-    straight_measurements_dict["front_waist"].append( eclidian_distance(FRONT_KEYPOINTS["left_waist"],FRONT_KEYPOINTS["right_waist"]) )
+    # straight_measurements_dict["front_waist"].append( eclidian_distance(FRONT_KEYPOINTS["left_waist"],FRONT_KEYPOINTS["right_waist"]) )
     straight_measurements_dict["front_waist"].append( eclidian_distance2(FRONT_KEYPOINTS["left_waist"],FRONT_KEYPOINTS["right_waist"],front_image_ratio) )
 
-    straight_measurements_dict["front_hip"].append( eclidian_distance(FRONT_KEYPOINTS["left_hip"],FRONT_KEYPOINTS["right_hip"]) )
+    # straight_measurements_dict["front_hip"].append( eclidian_distance(FRONT_KEYPOINTS["left_hip"],FRONT_KEYPOINTS["right_hip"]) )
     straight_measurements_dict["front_hip"].append( eclidian_distance2(FRONT_KEYPOINTS["left_hip"],FRONT_KEYPOINTS["right_hip"],front_image_ratio) )
 
-    straight_measurements_dict["under_arm"].append( eclidian_distance(FRONT_KEYPOINTS["left_chest_arm_meeting"],FRONT_KEYPOINTS["right_chest_arm_meeting"]) )
+    # straight_measurements_dict["under_arm"].append( eclidian_distance(FRONT_KEYPOINTS["left_chest_arm_meeting"],FRONT_KEYPOINTS["right_chest_arm_meeting"]) )
     straight_measurements_dict["under_arm"].append( eclidian_distance2(FRONT_KEYPOINTS["left_chest_arm_meeting"],FRONT_KEYPOINTS["right_chest_arm_meeting"],front_image_ratio) )
 
-    straight_measurements_dict["hip_to_knee_left"].append( eclidian_distance(FRONT_KEYPOINTS["left_hip"],FRONT_KEYPOINTS["left_Knee_outer"]) )
+    # straight_measurements_dict["hip_to_knee_left"].append( eclidian_distance(FRONT_KEYPOINTS["left_hip"],FRONT_KEYPOINTS["left_Knee_outer"]) )
     straight_measurements_dict["hip_to_knee_left"].append( eclidian_distance2(FRONT_KEYPOINTS["left_hip"],FRONT_KEYPOINTS["left_Knee_outer"],front_image_ratio) )
 
-    straight_measurements_dict["hip_to_knee_right"].append( eclidian_distance(FRONT_KEYPOINTS["right_hip"],FRONT_KEYPOINTS["right_Knee_outer"]) )
+    # straight_measurements_dict["hip_to_knee_right"].append( eclidian_distance(FRONT_KEYPOINTS["right_hip"],FRONT_KEYPOINTS["right_Knee_outer"]) )
     straight_measurements_dict["hip_to_knee_right"].append( eclidian_distance2(FRONT_KEYPOINTS["right_hip"],FRONT_KEYPOINTS["right_Knee_outer"],front_image_ratio) )
 
-    straight_measurements_dict["waist_knee_left"].append( eclidian_distance(FRONT_KEYPOINTS["left_waist"],FRONT_KEYPOINTS["left_Knee_outer"]) )
+    # straight_measurements_dict["waist_knee_left"].append( eclidian_distance(FRONT_KEYPOINTS["left_waist"],FRONT_KEYPOINTS["left_Knee_outer"]) )
     straight_measurements_dict["waist_knee_left"].append( eclidian_distance2(FRONT_KEYPOINTS["left_waist"],FRONT_KEYPOINTS["left_Knee_outer"],front_image_ratio) )
 
-    straight_measurements_dict["waist_knee_right"].append( eclidian_distance(FRONT_KEYPOINTS["right_waist"],FRONT_KEYPOINTS["right_Knee_outer"]) )
+    # straight_measurements_dict["waist_knee_right"].append( eclidian_distance(FRONT_KEYPOINTS["right_waist"],FRONT_KEYPOINTS["right_Knee_outer"]) )
     straight_measurements_dict["waist_knee_right"].append( eclidian_distance2(FRONT_KEYPOINTS["right_waist"],FRONT_KEYPOINTS["right_Knee_outer"],front_image_ratio) )
 
-    straight_measurements_dict["waist_hip_left"].append( eclidian_distance(FRONT_KEYPOINTS["left_waist"],FRONT_KEYPOINTS["left_hip"]) )
+    # straight_measurements_dict["waist_hip_left"].append( eclidian_distance(FRONT_KEYPOINTS["left_waist"],FRONT_KEYPOINTS["left_hip"]) )
     straight_measurements_dict["waist_hip_left"].append( eclidian_distance2(FRONT_KEYPOINTS["left_waist"],FRONT_KEYPOINTS["left_hip"],front_image_ratio) )
 
-    straight_measurements_dict["waist_hip_right"].append( eclidian_distance(FRONT_KEYPOINTS["right_waist"],FRONT_KEYPOINTS["right_hip"]) )
+    # straight_measurements_dict["waist_hip_right"].append( eclidian_distance(FRONT_KEYPOINTS["right_waist"],FRONT_KEYPOINTS["right_hip"]) )
     straight_measurements_dict["waist_hip_right"].append( eclidian_distance2(FRONT_KEYPOINTS["right_waist"],FRONT_KEYPOINTS["right_hip"],front_image_ratio) )
     
-    straight_measurements_dict["left_knee_width"].append( eclidian_distance(FRONT_KEYPOINTS["left_Knee_outer"],FRONT_KEYPOINTS["left_Knee_inner"]) )
+    # straight_measurements_dict["left_knee_width"].append( eclidian_distance(FRONT_KEYPOINTS["left_Knee_outer"],FRONT_KEYPOINTS["left_Knee_inner"]) )
     straight_measurements_dict["left_knee_width"].append( eclidian_distance2(FRONT_KEYPOINTS["left_Knee_outer"],FRONT_KEYPOINTS["left_Knee_inner"],front_image_ratio) )
 
-    straight_measurements_dict["right_knee_width"].append( eclidian_distance(FRONT_KEYPOINTS["right_Knee_inner"],FRONT_KEYPOINTS["right_Knee_outer"]) )
+    # straight_measurements_dict["right_knee_width"].append( eclidian_distance(FRONT_KEYPOINTS["right_Knee_inner"],FRONT_KEYPOINTS["right_Knee_outer"]) )
     straight_measurements_dict["right_knee_width"].append( eclidian_distance2(FRONT_KEYPOINTS["right_Knee_inner"],FRONT_KEYPOINTS["right_Knee_outer"],front_image_ratio) )
 
-    straight_measurements_dict["knee_to_ankle_right"].append( eclidian_distance(FRONT_KEYPOINTS["right_Knee_outer"],FRONT_KEYPOINTS["right_ankle_outer"]) )
+    # straight_measurements_dict["knee_to_ankle_right"].append( eclidian_distance(FRONT_KEYPOINTS["right_Knee_outer"],FRONT_KEYPOINTS["right_ankle_outer"]) )
     straight_measurements_dict["knee_to_ankle_right"].append( eclidian_distance2(FRONT_KEYPOINTS["right_Knee_outer"],FRONT_KEYPOINTS["right_ankle_outer"],front_image_ratio) )
   
-    straight_measurements_dict["knee_to_ankle_left"].append( eclidian_distance(FRONT_KEYPOINTS["left_Knee_outer"],FRONT_KEYPOINTS["left_ankle_outer"]) )
+    # straight_measurements_dict["knee_to_ankle_left"].append( eclidian_distance(FRONT_KEYPOINTS["left_Knee_outer"],FRONT_KEYPOINTS["left_ankle_outer"]) )
     straight_measurements_dict["knee_to_ankle_left"].append( eclidian_distance2(FRONT_KEYPOINTS["left_Knee_outer"],FRONT_KEYPOINTS["left_ankle_outer"],front_image_ratio) )
 
-    straight_measurements_dict["T_stone_to_left_knee"].append( eclidian_distance(FRONT_KEYPOINTS["stone_of_trousers"],FRONT_KEYPOINTS["left_Knee_inner"]) )
+    # straight_measurements_dict["T_stone_to_left_knee"].append( eclidian_distance(FRONT_KEYPOINTS["stone_of_trousers"],FRONT_KEYPOINTS["left_Knee_inner"]) )
     straight_measurements_dict["T_stone_to_left_knee"].append( eclidian_distance2(FRONT_KEYPOINTS["stone_of_trousers"],FRONT_KEYPOINTS["left_Knee_inner"],front_image_ratio) )
 
-    straight_measurements_dict["T_stone_to_right_knee"].append( eclidian_distance(FRONT_KEYPOINTS["stone_of_trousers"],FRONT_KEYPOINTS["right_Knee_inner"]) )
+    # straight_measurements_dict["T_stone_to_right_knee"].append( eclidian_distance(FRONT_KEYPOINTS["stone_of_trousers"],FRONT_KEYPOINTS["right_Knee_inner"]) )
     straight_measurements_dict["T_stone_to_right_knee"].append( eclidian_distance2(FRONT_KEYPOINTS["stone_of_trousers"],FRONT_KEYPOINTS["right_Knee_inner"],front_image_ratio) )
     #front image measurments end  ###############################################################################################################################
     
@@ -463,6 +456,8 @@ if __name__ == "__main__":
         print("#"*40)
 
     result_dict = {}
+    result_dict["name"] = user_name
+    result_dict["hieght"] = user_height
     result_dict.update(true_measurments_average_dict)
     result_dict.update(straight_measurements_average_dict)
 

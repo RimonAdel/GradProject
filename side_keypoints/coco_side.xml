@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<side_image_name>images/coco1.2.png</side_image_name>
+	<side_image_scale_percent>123.41526520051747</side_image_scale_percent>
+	<side_image_upper_ratio>5.1489047026293155</side_image_upper_ratio>
+	<side_image_ratio>5.1489047026293155</side_image_ratio>
+	<chest_front_point>(257, 256)</chest_front_point>
+	<chest_back_point>(448, 240)</chest_back_point>
+	<waist_front_point>(256, 387)</waist_front_point>
+	<waist_back_point>(471, 376)</waist_back_point>
+	<natural_waist_front_point>(259, 465)</natural_waist_front_point>
+	<natural_waist_back_point>(477, 441)</natural_waist_back_point>
+	<hip_front_point>(258, 491)</hip_front_point>
+	<hip_back_point>(481, 473)</hip_back_point>
+	<knee_point>(380, 681)</knee_point>
+	<ankle_point>(395, 894)</ankle_point>
+	<shoulder_point>(349, 144)</shoulder_point>
+	<elbow_point>(354, 249)</elbow_point>
+	<wrest_point>(335, 383)</wrest_point>
+	<head_point>(251, 26)</head_point>
+	<foot_point>(388, 927)</foot_point>
+	<side_image_HIP_HIGHT>465</side_image_HIP_HIGHT>
+</person>

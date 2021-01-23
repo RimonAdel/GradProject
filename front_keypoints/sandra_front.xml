@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<front_image_name>images/Dad1.1.jpg</front_image_name>
+	<front_image_scale_percent>21.30456349206349</front_image_scale_percent>
+	<front_image_upper_ratio>3.6488289442503454</front_image_upper_ratio>
+	<front_image_lower_ratio>3.6488289442503454</front_image_lower_ratio>
+	<front_image_ratio>3.6488289442503454</front_image_ratio>
+	<right_sholder_outer_point>(250, 234)</right_sholder_outer_point>
+	<right_sholder_inner_point>(302, 218)</right_sholder_inner_point>
+	<left_sholder_inner_point>(357, 219)</left_sholder_inner_point>
+	<left_sholder_outer_point>(404, 236)</left_sholder_outer_point>
+	<right_chest_point>(251, 321)</right_chest_point>
+	<left_chest_point>(408, 323)</left_chest_point>
+	<right_waist_point>(246, 389)</right_waist_point>
+	<left_waist_point>(405, 395)</left_waist_point>
+	<right_natural_waist_point>(248, 456)</right_natural_waist_point>
+	<left_natural_waist_point>(397, 459)</left_natural_waist_point>
+	<right_hip_point>(241, 495)</right_hip_point>
+	<left_hip_point>(404, 498)</left_hip_point>
+	<pants_crotch_point>(324, 516)</pants_crotch_point>
+	<right_thigh_point>(241, 514)</right_thigh_point>
+	<left_thigh_point>(405, 517)</left_thigh_point>
+	<right_Knee_point>(266, 630)</right_Knee_point>
+	<left_Knee_point>(385, 632)</left_Knee_point>
+	<right_ankle_point>(260, 713)</right_ankle_point>
+	<left_ankle_point>(372, 708)</left_ankle_point>
+	<head_point>(329, 111)</head_point>
+	<foot_point>(331, 724)</foot_point>
+	<front_image_hip_hight>456</front_image_hip_hight>
+	<front_image_right_hip_pixel>(248, 456)</front_image_right_hip_pixel>
+	<front_image_left_hip_pixel>(397, 459)</front_image_left_hip_pixel>
+</person>

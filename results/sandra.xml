@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<name>sandra</name>
+	<gender>male</gender>
+	<height>168</height>
+	<front_sholder_width>42.20888093647528</front_sholder_width>
+	<front_chest_width>43.03099452884694</front_chest_width>
+	<front_waist_width>43.60663919991003</front_waist_width>
+	<front_natural_waist_width>40.84329535834449</front_natural_waist_width>
+	<front_hip_width>44.679432090483864</front_hip_width>
+	<front_right_thigh_width>22.753627028632504</front_right_thigh_width>
+	<front_left_thigh_width>22.200594722852188</front_left_thigh_width>
+	<front_pants_crotch_right_knee_length>35.054045447678355</front_pants_crotch_right_knee_length>
+	<front_pants_crotch_left_knee_width>35.91866225495238</front_pants_crotch_left_knee_width>
+	<front_right_knee_ankle_width>22.806381487571514</front_right_knee_ankle_width>
+	<front_left_knee_ankle_width>21.13111556690032</front_left_knee_ankle_width>
+	<front_shoulder_outer_waist>42.47938239040823</front_shoulder_outer_waist>
+	<front_shoulder_outer_waist_avg>43.02750345351028</front_shoulder_outer_waist_avg>
+	<front_shoulder_outer_natural_waist>60.84143800432663</front_shoulder_outer_natural_waist>
+	<front_shoulder_outer_natural_waist_avg>60.97846827010214</front_shoulder_outer_natural_waist_avg>
+	<front_inseam_length>57.86042693524987</front_inseam_length>
+	<front_inseam_length_avg>57.45510237855129</front_inseam_length_avg>
+	<side_chest_width>31.383461575879924</side_chest_width>
+	<side_waist_width>34.556103636869494</side_waist_width>
+	<side_natural_waist_width>29.722829973183163</side_natural_waist_width>
+	<side_hip_width>27.081085161374276</side_hip_width>
+	<side_hip_knee_length>35.61654630951369</side_hip_knee_length>
+	<side_natural_waist_knee_length>42.37033013523151</side_natural_waist_knee_length>
+	<side_knee_ankle_length>38.62654579612623</side_knee_ankle_length>
+	<side_sholder_elbow_legnth>34.54199080251729</side_sholder_elbow_legnth>
+	<side_elbow_wrest_legnth>30.033851131852437</side_elbow_wrest_legnth>
+	<side_full_arm_legnth>64.57584193436972</side_full_arm_legnth>
+	<side_full_leg_legnth>84.99687593135775</side_full_leg_legnth>
+	<side_shoulder_waist>37.84188692542864</side_shoulder_waist>
+	<side_shoulder_natural_waist>58.43936968230752</side_shoulder_natural_waist>
+	<side_shoulder_waist_avg>38.919662185963006</side_shoulder_waist_avg>
+	<side_shoulder_natural_waist_avg>57.840605648677325</side_shoulder_natural_waist_avg>
+	<chest>117.60698376371603</chest>
+	<waist>123.18963155339554</waist>
+	<natural_waist>111.53427384438628</natural_waist>
+	<hip>114.42237422971202</hip>
+</person>

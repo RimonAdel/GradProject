@@ -2,17 +2,22 @@
 <person>
 	<side_image_name>images/kishk1.2.jpg</side_image_name>
 	<side_image_scale_percent>99.375</side_image_scale_percent>
-	<side_image_upper_ratio>4.564587693957661</side_image_upper_ratio>
-	<side_image_ratio>4.564587693957661</side_image_ratio>
-	<chest_front_point>(426, 215)</chest_front_point>
-	<chest_back_point>(309, 219)</chest_back_point>
-	<waist_front_point>(451, 301)</waist_front_point>
-	<waist_back_point>(318, 307)</waist_back_point>
-	<hip_front_point>(462, 391)</hip_front_point>
-	<hip_back_point>(317, 388)</hip_back_point>
-	<trousers_front_point>(452, 431)</trousers_front_point>
-	<trousers_back_point>(317, 431)</trousers_back_point>
-	<head_point>(387, 24)</head_point>
-	<foot_point>(377, 841)</foot_point>
-	<side_image_HIP_HIGHT>391</side_image_HIP_HIGHT>
+	<side_image_upper_ratio>4.677781076800104</side_image_upper_ratio>
+	<side_image_ratio>4.677781076800104</side_image_ratio>
+	<chest_front_point>(438, 246)</chest_front_point>
+	<chest_back_point>(315, 251)</chest_back_point>
+	<waist_front_point>(459, 350)</waist_front_point>
+	<waist_back_point>(324, 347)</waist_back_point>
+	<natural_waist_front_point>(458, 403)</natural_waist_front_point>
+	<natural_waist_back_point>(318, 402)</natural_waist_back_point>
+	<hip_front_point>(451, 429)</hip_front_point>
+	<hip_back_point>(314, 428)</hip_back_point>
+	<knee_point>(363, 640)</knee_point>
+	<ankle_point>(376, 821)</ankle_point>
+	<shoulder_point>(362, 167)</shoulder_point>
+	<elbow_point>(361, 342)</elbow_point>
+	<wrest_point>(384, 478)</wrest_point>
+	<head_point>(388, 20)</head_point>
+	<foot_point>(387, 862)</foot_point>
+	<side_image_HIP_HIGHT>403</side_image_HIP_HIGHT>
 </person>

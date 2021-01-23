@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<side_image_name>images/Dad1.2.jpg</side_image_name>
+	<side_image_scale_percent>23.660714285714285</side_image_scale_percent>
+	<side_image_upper_ratio>4.129961628137315</side_image_upper_ratio>
+	<side_image_ratio>4.129961628137315</side_image_ratio>
+	<chest_front_point>(320, 362)</chest_front_point>
+	<chest_back_point>(450, 360)</chest_back_point>
+	<waist_front_point>(286, 448)</waist_front_point>
+	<waist_back_point>(432, 454)</waist_back_point>
+	<natural_waist_front_point>(307, 524)</natural_waist_front_point>
+	<natural_waist_back_point>(419, 520)</natural_waist_back_point>
+	<hip_front_point>(316, 548)</hip_front_point>
+	<hip_back_point>(417, 549)</hip_back_point>
+	<knee_point>(393, 717)</knee_point>
+	<ankle_point>(408, 856)</ankle_point>
+	<shoulder_point>(394, 304)</shoulder_point>
+	<elbow_point>(397, 436)</elbow_point>
+	<wrest_point>(365, 556)</wrest_point>
+	<head_point>(376, 184)</head_point>
+	<foot_point>(410, 877)</foot_point>
+	<side_image_HIP_HIGHT>524</side_image_HIP_HIGHT>
+</person>

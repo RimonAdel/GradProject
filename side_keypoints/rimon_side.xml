@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<side_image_name>images/Rimon2.2.jpg</side_image_name>
+	<side_image_scale_percent>23.660714285714285</side_image_scale_percent>
+	<side_image_upper_ratio>4.754781360386254</side_image_upper_ratio>
+	<side_image_ratio>4.754781360386254</side_image_ratio>
+	<chest_front_point>(288, 274)</chest_front_point>
+	<chest_back_point>(156, 275)</chest_back_point>
+	<waist_front_point>(289, 368)</waist_front_point>
+	<waist_back_point>(161, 369)</waist_back_point>
+	<natural_waist_front_point>(283, 420)</natural_waist_front_point>
+	<natural_waist_back_point>(155, 418)</natural_waist_back_point>
+	<hip_front_point>(278, 446)</hip_front_point>
+	<hip_back_point>(149, 442)</hip_back_point>
+	<knee_point>(195, 643)</knee_point>
+	<ankle_point>(168, 818)</ankle_point>
+	<shoulder_point>(210, 178)</shoulder_point>
+	<elbow_point>(204, 339)</elbow_point>
+	<wrest_point>(250, 477)</wrest_point>
+	<head_point>(228, 60)</head_point>
+	<foot_point>(171, 852)</foot_point>
+	<side_image_HIP_HIGHT>420</side_image_HIP_HIGHT>
+</person>

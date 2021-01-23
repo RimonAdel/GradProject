@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<front_image_name>images/coco1.1.png</front_image_name>
+	<front_image_scale_percent>108.0503144654088</front_image_scale_percent>
+	<front_image_upper_ratio>4.475606940591822</front_image_upper_ratio>
+	<front_image_lower_ratio>4.475606940591822</front_image_lower_ratio>
+	<front_image_ratio>4.475606940591822</front_image_ratio>
+	<right_sholder_outer_point>(217, 162)</right_sholder_outer_point>
+	<right_sholder_inner_point>(306, 123)</right_sholder_inner_point>
+	<left_sholder_inner_point>(374, 119)</left_sholder_inner_point>
+	<left_sholder_outer_point>(442, 147)</left_sholder_outer_point>
+	<right_chest_point>(233, 268)</right_chest_point>
+	<left_chest_point>(447, 257)</left_chest_point>
+	<right_waist_point>(237, 349)</right_waist_point>
+	<left_waist_point>(442, 344)</left_waist_point>
+	<right_natural_waist_point>(239, 421)</right_natural_waist_point>
+	<left_natural_waist_point>(444, 420)</left_natural_waist_point>
+	<right_hip_point>(238, 463)</right_hip_point>
+	<left_hip_point>(450, 458)</left_hip_point>
+	<pants_crotch_point>(343, 513)</pants_crotch_point>
+	<right_thigh_point>(240, 509)</right_thigh_point>
+	<left_thigh_point>(437, 508)</left_thigh_point>
+	<right_Knee_point>(281, 640)</right_Knee_point>
+	<left_Knee_point>(404, 630)</left_Knee_point>
+	<right_ankle_point>(293, 777)</right_ankle_point>
+	<left_ankle_point>(403, 773)</left_ankle_point>
+	<head_point>(336, 13)</head_point>
+	<foot_point>(353, 805)</foot_point>
+	<front_image_hip_hight>421</front_image_hip_hight>
+	<front_image_right_hip_pixel>(239, 421)</front_image_right_hip_pixel>
+	<front_image_left_hip_pixel>(444, 420)</front_image_left_hip_pixel>
+</person>

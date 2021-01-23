@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<front_image_name>images/1.jpg</front_image_name>
+	<front_image_scale_percent>85.9</front_image_scale_percent>
+	<front_image_upper_ratio>4.469571333051366</front_image_upper_ratio>
+	<front_image_lower_ratio>4.469571333051366</front_image_lower_ratio>
+	<front_image_ratio>4.469571333051366</front_image_ratio>
+	<right_sholder_outer_point>(327, 178)</right_sholder_outer_point>
+	<right_sholder_inner_point>(395, 139)</right_sholder_inner_point>
+	<left_sholder_inner_point>(460, 139)</left_sholder_inner_point>
+	<left_sholder_outer_point>(539, 180)</left_sholder_outer_point>
+	<right_chest_point>(366, 260)</right_chest_point>
+	<left_chest_point>(497, 253)</left_chest_point>
+	<right_waist_point>(371, 334)</right_waist_point>
+	<left_waist_point>(495, 328)</left_waist_point>
+	<right_natural_waist_point>(361, 373)</right_natural_waist_point>
+	<left_natural_waist_point>(504, 365)</left_natural_waist_point>
+	<right_hip_point>(358, 421)</right_hip_point>
+	<left_hip_point>(510, 419)</left_hip_point>
+	<pants_crotch_point>(435, 463)</pants_crotch_point>
+	<right_thigh_point>(353, 461)</right_thigh_point>
+	<left_thigh_point>(521, 454)</left_thigh_point>
+	<right_Knee_point>(385, 593)</right_Knee_point>
+	<left_Knee_point>(499, 588)</left_Knee_point>
+	<right_ankle_point>(383, 792)</right_ankle_point>
+	<left_ankle_point>(525, 777)</left_ankle_point>
+	<head_point>(426, 17)</head_point>
+	<foot_point>(455, 821)</foot_point>
+	<front_image_hip_hight>373</front_image_hip_hight>
+	<front_image_right_hip_pixel>(361, 373)</front_image_right_hip_pixel>
+	<front_image_left_hip_pixel>(504, 365)</front_image_left_hip_pixel>
+</person>

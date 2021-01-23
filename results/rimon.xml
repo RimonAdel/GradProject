@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<name>rimon</name>
+	<gender>male</gender>
+	<height>168.0</height>
+	<front_sholder_width>41.13708192812161</front_sholder_width>
+	<front_chest_width>32.94680852902678</front_chest_width>
+	<front_waist_width>32.718456644656776</front_waist_width>
+	<front_natural_waist_width>33.97458798063456</front_natural_waist_width>
+	<front_hip_width>35.769351446109695</front_hip_width>
+	<front_right_thigh_width>18.910131505160802</front_right_thigh_width>
+	<front_left_thigh_width>17.634592262531736</front_left_thigh_width>
+	<front_pants_crotch_right_knee_length>29.373236242202218</front_pants_crotch_right_knee_length>
+	<front_pants_crotch_left_knee_width>28.306239343114523</front_pants_crotch_left_knee_width>
+	<front_right_knee_ankle_width>33.472922870946526</front_right_knee_ankle_width>
+	<front_left_knee_ankle_width>33.71260391768696</front_left_knee_ankle_width>
+	<front_shoulder_outer_waist>34.46989826079681</front_shoulder_outer_waist>
+	<front_shoulder_outer_waist_avg>34.46989826079681</front_shoulder_outer_waist_avg>
+	<front_shoulder_outer_natural_waist>46.725862086857894</front_shoulder_outer_natural_waist>
+	<front_shoulder_outer_natural_waist_avg>46.470529507148285</front_shoulder_outer_natural_waist_avg>
+	<front_inseam_length>62.846159113148744</front_inseam_length>
+	<front_inseam_length_avg>62.43250118697512</front_inseam_length_avg>
+	<side_chest_width>27.762325503378676</side_chest_width>
+	<side_waist_width>26.921091946906852</side_waist_width>
+	<side_natural_waist_width>26.92355638326191</side_natural_waist_width>
+	<side_hip_width>27.143624663716686</side_hip_width>
+	<side_hip_knee_length>42.033073551619026</side_hip_knee_length>
+	<side_natural_waist_knee_length>47.380106122683806</side_natural_waist_knee_length>
+	<side_knee_ankle_length>37.24053620238031</side_knee_ankle_length>
+	<side_sholder_elbow_legnth>33.88415791166952</side_sholder_elbow_legnth>
+	<side_elbow_wrest_legnth>30.59336725336381</side_elbow_wrest_legnth>
+	<side_full_arm_legnth>64.47752516503333</side_full_arm_legnth>
+	<side_full_leg_legnth>88.62064232506413</side_full_leg_legnth>
+	<side_shoulder_waist>39.95977640169881</side_shoulder_waist>
+	<side_shoulder_natural_waist>50.89613625900586</side_shoulder_natural_waist>
+	<side_shoulder_waist_avg>40.06493370801907</side_shoulder_waist_avg>
+	<side_shoulder_natural_waist_avg>50.68582164636534</side_shoulder_natural_waist_avg>
+	<chest>95.53563090359164</chest>
+	<waist>93.90301744406294</waist>
+	<natural_waist>95.9794487969951</natural_waist>
+	<hip>99.28843884843299</hip>
+</person>

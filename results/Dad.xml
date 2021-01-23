@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<name>Dad</name>
+	<gender>male</gender>
+	<height>168</height>
+	<front_sholder_width>42.40331969787679</front_sholder_width>
+	<front_chest_width>42.433412796193416</front_chest_width>
+	<front_waist_width>43.226199521102764</front_waist_width>
+	<front_natural_waist_width>38.11565243727697</front_natural_waist_width>
+	<front_hip_width>44.3135956397592</front_hip_width>
+	<front_right_thigh_width>22.72682111723416</front_right_thigh_width>
+	<front_left_thigh_width>21.883095801687947</front_left_thigh_width>
+	<front_pants_crotch_right_knee_length>30.351200806828526</front_pants_crotch_right_knee_length>
+	<front_pants_crotch_left_knee_width>30.292262877373503</front_pants_crotch_left_knee_width>
+	<front_right_knee_ankle_width>27.084799282238727</front_right_knee_ankle_width>
+	<front_left_knee_ankle_width>24.84876893514951</front_left_knee_ankle_width>
+	<front_shoulder_outer_waist>40.78198341890807</front_shoulder_outer_waist>
+	<front_shoulder_outer_waist_avg>41.457181819883374</front_shoulder_outer_waist_avg>
+	<front_shoulder_outer_natural_waist>58.06706248387573</front_shoulder_outer_natural_waist>
+	<front_shoulder_outer_natural_waist_avg>59.01234024524115</front_shoulder_outer_natural_waist_avg>
+	<front_inseam_length>57.43600008906725</front_inseam_length>
+	<front_inseam_length_avg>56.28851595079513</front_inseam_length_avg>
+	<side_chest_width>31.481014937128908</side_chest_width>
+	<side_waist_width>35.381257458986795</side_waist_width>
+	<side_natural_waist_width>27.136185732437752</side_natural_waist_width>
+	<side_hip_width>24.45663167560389</side_hip_width>
+	<side_hip_knee_length>41.30089209132894</side_hip_knee_length>
+	<side_natural_waist_knee_length>47.77143575023279</side_natural_waist_knee_length>
+	<side_knee_ankle_length>33.851890750282394</side_knee_ankle_length>
+	<side_sholder_elbow_legnth>31.96980950342195</side_sholder_elbow_legnth>
+	<side_elbow_wrest_legnth>30.07131996674109</side_elbow_wrest_legnth>
+	<side_full_arm_legnth>62.04112947016304</side_full_arm_legnth>
+	<side_full_leg_legnth>85.62332650051519</side_full_leg_legnth>
+	<side_shoulder_waist>34.8671520381526</side_shoulder_waist>
+	<side_shoulder_natural_waist>53.26926005828869</side_shoulder_natural_waist>
+	<side_shoulder_waist_avg>35.59355103894744</side_shoulder_waist_avg>
+	<side_shoulder_natural_waist_avg>52.784994057758794</side_shoulder_natural_waist_avg>
+	<chest>116.74269613743353</chest>
+	<waist>123.78394710128141</waist>
+	<natural_waist>103.2241230331344</natural_waist>
+	<hip>110.28744510720476</hip>
+</person>
